@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 
-section div:nth-child(2) {
+.photo:nth-child(2) {
   display: none;
 }
 
@@ -40,7 +40,7 @@ section div:last-child {
 
 @media only screen and (min-width: 25em) {
 
-  section div:nth-child(2){
+  .photo:nth-child(2) {
     display: block;
   }
 
@@ -65,7 +65,7 @@ section div:last-child {
   }
 
   section div {
-    width: 33.333%;
+    width: 33.3333%;
   }
 
 }
@@ -77,8 +77,8 @@ section div:last-child {
   }
 
   section div:first-child {
-    width: 33.333%;
-    flex-basis: 66.666%;
+    width: 66.6666%;
     flex-grow: 2;
   }
+
 }
